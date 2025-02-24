@@ -1,15 +1,9 @@
 import { RevealOnScroll } from "./RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
-  ];
+  const frontendSkills = ["HTML", "CSS", "JS", "Tailwind", "React"];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Java", "Node", "MySQL", "PostgreSQL"];
 
   return (
     <section
@@ -69,12 +63,15 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong>
+                    {" "}
+                    Ontario College Diploma in Computer Programming{" "}
+                  </strong>{" "}
+                  - Algonquin College (2023-2024)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  <strong> Ontario Secondary School Diploma </strong> - Bishop
+                  Tonnos (2010-2015)
                 </li>
               </ul>
             </div>
@@ -84,22 +81,22 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Dishwasher/Prep Cook at Mezcal (2016-2016){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                    {/* Developed and maintained microservices for cloud-based
+                    applications. */}
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Overnight Stocker at Fortinos (2022-2022){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    {/* Assisted in building front-end components and integration
+                    REST APIs */}
                   </p>
                 </div>
               </div>
