@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="scripts/scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="nav__container container"
+        role="navigation"
+        aria-label="Main navigation"
+      >
+        <a class="nav__logo-link" href="#home" aria-label="Portfolio home">
+          <h1 class="nav__logo"><span>EMKM</span>Portfolio</h1>
+        </a>
+        <ul class="nav__list" aria-label="Navigation menu">
+          <li class="nav__item">
+            <a class="nav__item-link" href="#home" aria-current="page">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__item-link" href="#about">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__item-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__item-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="mobile-nav__list" aria-label="Mobile navigation menu">
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__item-link" href="#home" aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__item-link" href="#about">About</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__item-link" href="#projects">Projects</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a class="mobile-nav__item-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <i class="fa fa-bars nav__toggle"></i>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero__container container">
+          <div class="hero__image-container">
+            <img
+              class="hero__image"
+              src="images/hero.svg"
+              alt="Hero Section Image"
+            />
+          </div>
+          <div class="hero__content-container">
+            <span class="hero__subtitle">Hi, my name is</span>
+            <h1 class="hero__title">
+              Eric Mignardi.<br />I build things for the <span>web</span>.
+            </h1>
+            <p class="hero__description">
+              I'm a web developer specializing in building exceptional digital
+              experiences. Currently, I'm focused on building accessible,
+              human-centered products.
+            </p>
+            <a class="hero__cta" href="#projects">View Projects</a>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about section">
+        <div class="about__container container">
+          <div class="about__content-container">
+            <h1 class="about__title">About Me</h1>
+            <p class="about__description">
+              I work with technologies like JavaScript, React, Node.js, Express,
+              and MongoDB (plus whatever the project calls for), and I’m all
+              about creating seamless, scalable, and efficient web applications.
+            </p>
+            <div class="about__tech-container">
+              <div class="about__tech">HTML</div>
+              <div class="about__tech">CSS</div>
+              <div class="about__tech">JS</div>
+              <div class="about__tech">React</div>
+              <div class="about__tech">Node</div>
+              <div class="about__tech">SQL</div>
+              <div class="about__tech">Java</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects section">
+        <div class="projects__container container">
+          <h1 class="projects__title">Latest Projects</h1>
+          <div class="projects__card-container">
+            <div class="projects__card">
+              <h2 class="projects__card-title">Chat Application</h2>
+              <ul class="projects__card-list">
+                <li class="projects__card-list-item">MongoDB</li>
+                <li class="projects__card-list-item">Express</li>
+                <li class="projects__card-list-item">React</li>
+                <li class="projects__card-list-item">Node</li>
+              </ul>
+              <p class="projects__card-description">
+                Real-time chat app using Socket.IO, Cloudinary for image
+                uploads.
+              </p>
+              <img
+                class="projects__card-image"
+                src="images/chat-app.png"
+                alt="Chat Application Screenshot"
+              />
+              <div class="projects__card-links-container">
+                <a
+                  href="https://github.com/ericmignardi/chat-app"
+                  target="_blank"
+                  class="projects__card-link"
+                  >GitHub</a
+                >
+                •
+                <a
+                  href="https://chat-app-ssbf.onrender.com/"
+                  target="_blank"
+                  class="projects__card-link"
+                  >Live</a
+                >
+              </div>
+            </div>
+            <div class="projects__card">
+              <h2 class="projects__card-title">Closet Application</h2>
+              <ul class="projects__card-list">
+                <li class="projects__card-list-item">PostgreSQL</li>
+                <li class="projects__card-list-item">Express</li>
+                <li class="projects__card-list-item">React</li>
+                <li class="projects__card-list-item">Node</li>
+              </ul>
+              <p class="projects__card-description">
+                Closet management app with JWT authentication for secure user
+                access.
+              </p>
+              <img
+                class="projects__card-image"
+                src="images/closet-app.png"
+                alt="Closet Application Screenshot"
+              />
+              <div class="projects__card-links-container">
+                <a
+                  href="https://github.com/ericmignardi/closet.io"
+                  target="_blank"
+                  class="projects__card-link"
+                  >GitHub</a
+                >
+                •
+                <a
+                  href="https://closet-io.onrender.com/"
+                  target="_blank"
+                  class="projects__card-link"
+                  >Live</a
+                >
+              </div>
+            </div>
+            <div class="projects__card">
+              <h2 class="projects__card-title">Crohns Application</h2>
+              <ul class="projects__card-list">
+                <li class="projects__card-list-item">PostgreSQL</li>
+                <li class="projects__card-list-item">Express</li>
+                <li class="projects__card-list-item">React</li>
+                <li class="projects__card-list-item">Node</li>
+              </ul>
+              <p class="projects__card-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, in.
+              </p>
+              <img
+                class="projects__card-image"
+                src="images/crohns-app.png"
+                alt="Crohn's Application Screenshot"
+              />
+              <div class="projects__card-links-container">
+                <a
+                  href="https://github.com/ericmignardi/crohns-app"
+                  target="_blank"
+                  class="projects__card-link"
+                  >GitHub</a
+                >
+                •
+                <a
+                  href="https://crohns-app.onrender.com/"
+                  target="_blank"
+                  class="projects__card-link"
+                  >Live</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <div class="contact__container container">
+          <h1 class="contact__title">Contact Me</h1>
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact__form"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="WEB3FORMS_ACCESS_KEY"
+            />
+            <input
+              class="contact__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              class="contact__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              class="contact__input"
+              type="comment"
+              name="comment"
+              id="comment"
+              placeholder="Enter a comment..."
+              required
+            />
+            <button class="contact__cta" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <!-- <footer></footer> -->
+    </main>
+  </body>
+</html>
