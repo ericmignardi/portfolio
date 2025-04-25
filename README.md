@@ -20,12 +20,6 @@ A responsive, single-page portfolio website showcasing my skills, projects, and 
 
     Contact Form: Integrated form for potential employers or collaborators to reach out.​
 
-📸 Screenshots
-
-​
-ericjb77.github.io+4devricportfolio.netlify.app+4emangor.com+4
-
-​Note: Replace with actual screenshot or remove if not available.​
 📥 Installation
 
     Clone the repository:
