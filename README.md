@@ -22,4 +22,4 @@ portfolio is a fast, responsive personal website built with **HTML**, **CSS**, a
 
 ## 📸 Screenshots
 
-![Home Page](./images/screenshot1.png)
+![Home Page](./images/screenshot0.png)
