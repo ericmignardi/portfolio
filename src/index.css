@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #f8f9fa; /* Off-white Google background */
+  --color-brand-surface: #ffffff; /* Pure white cards */
+  --color-brand-ink: #202124; /* Google dark gray text */
+  --color-brand-accent: #1a73e8; /* Google blue */
+  --color-brand-soft: #e8eaed; /* Very subtle border */
+
+  --font-heading: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --radius-pill: 9999px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-ink);
+    font-family: var(--font-body);
+  }
+}
